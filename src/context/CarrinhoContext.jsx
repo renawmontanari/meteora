@@ -11,4 +11,4 @@ export const CarrinhoProvider = ({children}) => {
             {children}
         </CarrinhoContext.Provider>
     )
-}
+} 
