@@ -7,7 +7,7 @@ CarrinhoContext.displayName = "Carrinho";
 export const CarrinhoProvider = ({children}) => {
     const [carrinho, setCarrinho] = useState([]);
     const [quantidade, setQuantidade] = useState(0); 
-    const [valorTotal, setValortotal] = useState(0); 
+    const [valorTotal, setValorTotal] = useState(0); 
 
     return (
         <CarrinhoContext.Provider 
@@ -17,7 +17,7 @@ export const CarrinhoProvider = ({children}) => {
                 quantidade, 
                 setQuantidade, 
                 valorTotal, 
-                setValortotal 
+                setValorTotal 
             }}
         >
             {children}
